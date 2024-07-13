@@ -138,3 +138,4 @@
     - Certbot will automatically create the certificate and update the Nginx configuration.
 2. **Verify SSL Certificate:**
     - The SSL certificate should be successfully generated, and HTTP requests should be redirected to HTTPS.
+    - test
