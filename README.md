@@ -1,4 +1,4 @@
-# Server Setup Guide In EC2
+# Server Setup Guide For EC2
 
 ## 1. EC2 Instance Setup
 ### EC2 Launch and Configuration
@@ -138,3 +138,15 @@
     - Certbot will automatically create the certificate and update the Nginx configuration.
 2. **Verify SSL Certificate:**
     - The SSL certificate should be successfully generated, and HTTP requests should be redirected to HTTPS.
+
+## Verifying SSL Certificate and Completing Server Setup
+
+To verify the successful generation of your SSL certificate, navigate to your domain in a web browser and look for the padlock icon in the address bar. Click on it to view certificate details.
+
+To ensure your server setup is complete, confirm the following:
+1. Your application is accessible via HTTPS.
+2. PM2 is managing your Node.js processes.
+3. Nginx is properly serving your application.
+
+With these steps, your server should be fully operational and secure. Happy coding! 🚀
+
